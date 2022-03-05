@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Codedamn - Quiz Project</title>
+</head>
+
+<body>
+    <header>
+        <a id=leaderboard>View Highscores <i class="fas fa-hand-point-left fa-lg"></i>
+        </i></a> 
+    <span>Time: <span class= "timer">50<span></span>
+
+    </header>
+    <main>
+        <div class="card start-card">
+            <h2>Coding Quiz Challenge </h2>
+            <p> Try to answer to following code-related questions within the time limit. </p>
+            <p>Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+            <button class="start-quiz">Start Quiz</button>
+        </div>
+        <div class="card high-scores" >
+            <h2>Highscores </h2>
+            <ol id="add-highscores">
+                <!-- <li>CD - 9</li> -->
+            </ol>
+            <button id="go-back">Go Back</button>
+            <button id="clear-highscores">Clear Highscores</button>
+
+
+        </div>
+        <div class="card questions">
+           <h2 class="question"></h2>
+           <p class="option" id="option1"></p>
+           <p class="option" id="option2"></p>
+           <p class="option" id="option3"></p>
+           <p class="option" id="option4"></p>
+            <div class="results">
+                <hr/>
+                <span class = "correct"></span>
+                <span class = "incorrect"></span>
+            </div>
+
+
+        </div>
+        <div class="card all-done">
+            <h2>All done!</h2>
+            <p>Your final score is <span id="score"></span>.</p>
+            <span> Enter initials:</span>
+            <input type = "text" size=8 id="initial"/>
+            <button type = "submit" id="submit-initial">Submit</button>
+        </div>
+    </main>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>

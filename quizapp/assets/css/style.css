@@ -1,0 +1,58 @@
+:root {
+  background-color: #fff;
+  font-family: Verdana;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #218380;
+  padding: 20px;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+button {
+  background-color: #218380;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 2px;
+  cursor: pointer;
+}
+input {
+  line-height: 28px;
+}
+.card {
+  padding: 30px;
+  border: 2px solid #cedfe0;
+  border-radius: 20px;
+  box-shadow: 4px 2px 5px rgb(0 0 0 / 0.2);
+}
+
+.option {
+  background-color: #218380;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
